@@ -5,6 +5,9 @@ export default function Container(props) {
 	const { children } = props;
 
 	return (
-		<div className="container">{children}</div>
+		<>
+			<section className="container">{children}</section>
+		</>
 	)
 }
+

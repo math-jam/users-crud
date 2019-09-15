@@ -2,6 +2,7 @@ import React from 'react';
 import Container from './components/Container';
 import Navbar from './sections/Navbar';
 import FilterPanel from './sections/Filter';
+import Footer from './sections/Footer';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Container>
         <FilterPanel />
       </Container>
+      <Footer />
     </>
   );
 }

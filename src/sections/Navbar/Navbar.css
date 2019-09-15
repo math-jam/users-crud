@@ -1,0 +1,18 @@
+.navbar{ 
+    padding: 10px;
+    display: flex;
+    background: #455A64;
+}
+
+.logo-navbar{
+    width: 45px;
+    height: 45px;
+}
+
+.btn-navbar{ 
+    border: none;
+    background: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 60px;
+}
